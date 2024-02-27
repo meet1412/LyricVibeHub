@@ -1,0 +1,271 @@
+html{
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-kerning: normal;
+}
+body{
+    background-color: lightslategray;
+}
+main.lyrics_body{
+    width: 90%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    box-shadow: 15px 15px 10px black, -15px -15px 10px black;
+    border-radius: 1cm;
+}
+div.padding{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*About section*/
+div.info{
+    height:auto;
+    width: 30%;
+    border-radius: 0.2cm;
+    background-color: ghostwhite;
+    position: absolute;
+    margin-left: 2%;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
+img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 10px darkblue, 10px 10px 5px lightblue;
+}
+img:hover{
+    box-shadow: -5px -5px 10px darkblue, -10px -10px 5px lightblue;
+    width: 300px;
+    height: 300px;
+}
+audio{
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    border-radius: 1cm;
+    margin-top: 2%;
+    margin-left: 16%;
+}
+li{
+    list-style: none;
+    text-align: center;
+    margin-right: 8%;
+    font-family:cursive;
+    font-weight: bold;
+}
+h1#ab{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+h1#ab:hover{
+    text-decoration: underline;
+    font-size: 5ch;
+    color: darkblue;
+    font-family: algerian;
+    text-shadow: -5px -5px 5px lightblue, -5px -5px 5px darkblue ;
+}
+p.about{
+    width: 80%;
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size:small;
+}
+p.about:hover{
+    font-size: large;
+}
+
+/*Lyrics Section*/
+div.lyrics{
+    background-color: white;
+    font-size:larger;
+    width: 55%;
+    height: 100%; 
+    position: relative; 
+    margin-left: 38%;
+    margin-right: 0%;
+    padding: 15px 30px 15px 30px;
+    border-radius: 1cm;
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+}
+header{
+    font-size: 8ch;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    font-family: 'Permanent Marker', cursive;
+    transition: all 0.6s ease;
+    text-decoration: line-through;
+    border-radius: 1cm;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+header:hover{
+    color: darkblue;
+    font-size: 9ch;
+    text-shadow: -5px -5px 5px lightblue, -5px -5px 5px darkblue ;
+    text-decoration: none;
+    font-family: algerian;
+    box-shadow: 10px 10px 20px black;
+}
+h1#ly{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+h1#ly:hover{
+    text-decoration: underline;
+    font-size: 5ch;
+    color: darkblue;
+    font-weight: lighter;
+    font-family: algerian;
+    text-shadow: -5px -5px 5px lightblue, -5px -5px 5px darkblue ;
+}
+p{
+    width: 65%;
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease;
+}
+div.lyrics p::before{
+    content: "''";
+}
+div.lyrics p::after{
+    content: "''";
+}
+div.lyrics p:last-child:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_1:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_2:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightskyblue);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_3:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_4:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightskyblue);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_5:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_6:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightskyblue);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_7:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_8:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightskyblue);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_9:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightslategray);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
+.paragraph_10:hover{
+    width: 65%;
+    height: 200%;
+    padding: 15px 30px 15px 30px;
+    background-image: linear-gradient(to bottom right, lightblue, lightskyblue);
+    box-shadow: 5px 5px 15px darkblue, -5px -5px 15px lightblue;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Vollkorn', serif;
+}
