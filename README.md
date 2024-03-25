@@ -1,3 +1,4 @@
+Live link - https://meet1412.github.io/LyricVibeHub/
 Project Description: Song Website
 
 This project involves creating a web page dedicated to a specific song, in this case, "Shape of You" by Ed Sheeran. The web page provides a visually appealing and informative experience for users interested in the song. Here's a breakdown of the key components and features:
@@ -39,4 +40,3 @@ The page employs a mix of textual content, images, and styling to create an enga
 
 Overall, this project aims to provide users with a well-designed and informative platform to explore the details and lyrics of the song "Shape of You" by Ed Sheeran. The combination of visual elements, typography, and organized content enhances the overall user experience.
 
-![Screenshot 2024-02-27 142148](https://github.com/meet1412/LyricVibeHub/assets/146736167/19de38db-8c27-4bb3-af30-2df67d4de3df)
